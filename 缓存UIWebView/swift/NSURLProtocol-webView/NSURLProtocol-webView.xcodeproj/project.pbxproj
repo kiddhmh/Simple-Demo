@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24EBCF61E10C62000B00E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBCF51E10C62000B00E8D /* AppDelegate.swift */; };
+		A24EBCF81E10C62000B00E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBCF71E10C62000B00E8D /* ViewController.swift */; };
+		A24EBCFB1E10C62000B00E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24EBCF91E10C62000B00E8D /* Main.storyboard */; };
+		A24EBCFD1E10C62000B00E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24EBCFC1E10C62000B00E8D /* Assets.xcassets */; };
+		A24EBD001E10C62000B00E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24EBCFE1E10C62000B00E8D /* LaunchScreen.storyboard */; };
+		A24EBD0B1E10C62000B00E8D /* NSURLProtocol_webViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD0A1E10C62000B00E8D /* NSURLProtocol_webViewTests.swift */; };
+		A24EBD161E10C62000B00E8D /* NSURLProtocol_webViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD151E10C62000B00E8D /* NSURLProtocol_webViewUITests.swift */; };
+		A24EBD251E10C6EA00B00E8D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD241E10C6EA00B00E8D /* Extension.swift */; };
+		A24EBD2B1E10CD0600B00E8D /* MHURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD2A1E10CD0600B00E8D /* MHURLProtocol.swift */; };
+		A24EBD3B1E10D4A700B00E8D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A24EBD3A1E10D4A700B00E8D /* libsqlite3.tbd */; };
+		A24EBD3D1E10D52A00B00E8D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24EBD3C1E10D52A00B00E8D /* CoreFoundation.framework */; };
+		A24EBD471E10D5B500B00E8D /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD401E10D5B500B00E8D /* YYCache.m */; };
+		A24EBD481E10D5B500B00E8D /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD421E10D5B500B00E8D /* YYDiskCache.m */; };
+		A24EBD491E10D5B500B00E8D /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD441E10D5B500B00E8D /* YYKVStorage.m */; };
+		A24EBD4A1E10D5B500B00E8D /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD461E10D5B500B00E8D /* YYMemoryCache.m */; };
+		A24EBD4C1E10D68A00B00E8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24EBD4B1E10D68A00B00E8D /* UIKit.framework */; };
+		A24EBD4E1E10D69600B00E8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24EBD4D1E10D69600B00E8D /* QuartzCore.framework */; };
+		A24EBD501E10E38500B00E8D /* MHCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD4F1E10E38500B00E8D /* MHCache.swift */; };
+		A24EBD531E10EA0200B00E8D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD521E10EA0200B00E8D /* Reachability.m */; };
+		A24EBD551E10EBDA00B00E8D /* MHCacheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24EBD541E10EBDA00B00E8D /* MHCacheModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A24EBD071E10C62000B00E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24EBCEA1E10C62000B00E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24EBCF11E10C62000B00E8D;
+			remoteInfo = "NSURLProtocol-webView";
+		};
+		A24EBD121E10C62000B00E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24EBCEA1E10C62000B00E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24EBCF11E10C62000B00E8D;
+			remoteInfo = "NSURLProtocol-webView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A24EBCF21E10C62000B00E8D /* NSURLProtocol-webView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSURLProtocol-webView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24EBCF51E10C62000B00E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A24EBCF71E10C62000B00E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A24EBCFA1E10C62000B00E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A24EBCFC1E10C62000B00E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A24EBCFF1E10C62000B00E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A24EBD011E10C62000B00E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24EBD061E10C62000B00E8D /* NSURLProtocol-webViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURLProtocol-webViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24EBD0A1E10C62000B00E8D /* NSURLProtocol_webViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLProtocol_webViewTests.swift; sourceTree = "<group>"; };
+		A24EBD0C1E10C62000B00E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24EBD111E10C62000B00E8D /* NSURLProtocol-webViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURLProtocol-webViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24EBD151E10C62000B00E8D /* NSURLProtocol_webViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLProtocol_webViewUITests.swift; sourceTree = "<group>"; };
+		A24EBD171E10C62000B00E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24EBD241E10C6EA00B00E8D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A24EBD261E10C91B00B00E8D /* NSURLProtocol-webView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol-webView-Bridging-Header.h"; sourceTree = "<group>"; };
+		A24EBD2A1E10CD0600B00E8D /* MHURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHURLProtocol.swift; sourceTree = "<group>"; };
+		A24EBD3A1E10D4A700B00E8D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A24EBD3C1E10D52A00B00E8D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A24EBD3F1E10D5B500B00E8D /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		A24EBD401E10D5B500B00E8D /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		A24EBD411E10D5B500B00E8D /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		A24EBD421E10D5B500B00E8D /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		A24EBD431E10D5B500B00E8D /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		A24EBD441E10D5B500B00E8D /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		A24EBD451E10D5B500B00E8D /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		A24EBD461E10D5B500B00E8D /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		A24EBD4B1E10D68A00B00E8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A24EBD4D1E10D69600B00E8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A24EBD4F1E10E38500B00E8D /* MHCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHCache.swift; sourceTree = "<group>"; };
+		A24EBD511E10EA0200B00E8D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A24EBD521E10EA0200B00E8D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A24EBD541E10EBDA00B00E8D /* MHCacheModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHCacheModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24EBCEF1E10C62000B00E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBD4E1E10D69600B00E8D /* QuartzCore.framework in Frameworks */,
+				A24EBD4C1E10D68A00B00E8D /* UIKit.framework in Frameworks */,
+				A24EBD3D1E10D52A00B00E8D /* CoreFoundation.framework in Frameworks */,
+				A24EBD3B1E10D4A700B00E8D /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBD031E10C62000B00E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBD0E1E10C62000B00E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24EBCE91E10C62000B00E8D = {
+			isa = PBXGroup;
+			children = (
+				A24EBCF41E10C62000B00E8D /* NSURLProtocol-webView */,
+				A24EBD091E10C62000B00E8D /* NSURLProtocol-webViewTests */,
+				A24EBD141E10C62000B00E8D /* NSURLProtocol-webViewUITests */,
+				A24EBCF31E10C62000B00E8D /* Products */,
+				A24EBD391E10D4A700B00E8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A24EBCF31E10C62000B00E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBCF21E10C62000B00E8D /* NSURLProtocol-webView.app */,
+				A24EBD061E10C62000B00E8D /* NSURLProtocol-webViewTests.xctest */,
+				A24EBD111E10C62000B00E8D /* NSURLProtocol-webViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24EBCF41E10C62000B00E8D /* NSURLProtocol-webView */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBD3E1E10D5B500B00E8D /* YYCache */,
+				A24EBD231E10C64C00B00E8D /* LoadCacheTool */,
+				A24EBCF51E10C62000B00E8D /* AppDelegate.swift */,
+				A24EBCF71E10C62000B00E8D /* ViewController.swift */,
+				A24EBCF91E10C62000B00E8D /* Main.storyboard */,
+				A24EBCFC1E10C62000B00E8D /* Assets.xcassets */,
+				A24EBCFE1E10C62000B00E8D /* LaunchScreen.storyboard */,
+				A24EBD011E10C62000B00E8D /* Info.plist */,
+				A24EBD261E10C91B00B00E8D /* NSURLProtocol-webView-Bridging-Header.h */,
+			);
+			path = "NSURLProtocol-webView";
+			sourceTree = "<group>";
+		};
+		A24EBD091E10C62000B00E8D /* NSURLProtocol-webViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBD0A1E10C62000B00E8D /* NSURLProtocol_webViewTests.swift */,
+				A24EBD0C1E10C62000B00E8D /* Info.plist */,
+			);
+			path = "NSURLProtocol-webViewTests";
+			sourceTree = "<group>";
+		};
+		A24EBD141E10C62000B00E8D /* NSURLProtocol-webViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBD151E10C62000B00E8D /* NSURLProtocol_webViewUITests.swift */,
+				A24EBD171E10C62000B00E8D /* Info.plist */,
+			);
+			path = "NSURLProtocol-webViewUITests";
+			sourceTree = "<group>";
+		};
+		A24EBD231E10C64C00B00E8D /* LoadCacheTool */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBD511E10EA0200B00E8D /* Reachability.h */,
+				A24EBD521E10EA0200B00E8D /* Reachability.m */,
+				A24EBD4F1E10E38500B00E8D /* MHCache.swift */,
+				A24EBD241E10C6EA00B00E8D /* Extension.swift */,
+				A24EBD541E10EBDA00B00E8D /* MHCacheModel.swift */,
+				A24EBD2A1E10CD0600B00E8D /* MHURLProtocol.swift */,
+			);
+			path = LoadCacheTool;
+			sourceTree = "<group>";
+		};
+		A24EBD391E10D4A700B00E8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBD4D1E10D69600B00E8D /* QuartzCore.framework */,
+				A24EBD4B1E10D68A00B00E8D /* UIKit.framework */,
+				A24EBD3C1E10D52A00B00E8D /* CoreFoundation.framework */,
+				A24EBD3A1E10D4A700B00E8D /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A24EBD3E1E10D5B500B00E8D /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBD3F1E10D5B500B00E8D /* YYCache.h */,
+				A24EBD401E10D5B500B00E8D /* YYCache.m */,
+				A24EBD411E10D5B500B00E8D /* YYDiskCache.h */,
+				A24EBD421E10D5B500B00E8D /* YYDiskCache.m */,
+				A24EBD431E10D5B500B00E8D /* YYKVStorage.h */,
+				A24EBD441E10D5B500B00E8D /* YYKVStorage.m */,
+				A24EBD451E10D5B500B00E8D /* YYMemoryCache.h */,
+				A24EBD461E10D5B500B00E8D /* YYMemoryCache.m */,
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24EBCF11E10C62000B00E8D /* NSURLProtocol-webView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24EBD1A1E10C62000B00E8D /* Build configuration list for PBXNativeTarget "NSURLProtocol-webView" */;
+			buildPhases = (
+				A24EBCEE1E10C62000B00E8D /* Sources */,
+				A24EBCEF1E10C62000B00E8D /* Frameworks */,
+				A24EBCF01E10C62000B00E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSURLProtocol-webView";
+			productName = "NSURLProtocol-webView";
+			productReference = A24EBCF21E10C62000B00E8D /* NSURLProtocol-webView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A24EBD051E10C62000B00E8D /* NSURLProtocol-webViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24EBD1D1E10C62000B00E8D /* Build configuration list for PBXNativeTarget "NSURLProtocol-webViewTests" */;
+			buildPhases = (
+				A24EBD021E10C62000B00E8D /* Sources */,
+				A24EBD031E10C62000B00E8D /* Frameworks */,
+				A24EBD041E10C62000B00E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24EBD081E10C62000B00E8D /* PBXTargetDependency */,
+			);
+			name = "NSURLProtocol-webViewTests";
+			productName = "NSURLProtocol-webViewTests";
+			productReference = A24EBD061E10C62000B00E8D /* NSURLProtocol-webViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A24EBD101E10C62000B00E8D /* NSURLProtocol-webViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24EBD201E10C62000B00E8D /* Build configuration list for PBXNativeTarget "NSURLProtocol-webViewUITests" */;
+			buildPhases = (
+				A24EBD0D1E10C62000B00E8D /* Sources */,
+				A24EBD0E1E10C62000B00E8D /* Frameworks */,
+				A24EBD0F1E10C62000B00E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24EBD131E10C62000B00E8D /* PBXTargetDependency */,
+			);
+			name = "NSURLProtocol-webViewUITests";
+			productName = "NSURLProtocol-webViewUITests";
+			productReference = A24EBD111E10C62000B00E8D /* NSURLProtocol-webViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24EBCEA1E10C62000B00E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CMCC;
+				TargetAttributes = {
+					A24EBCF11E10C62000B00E8D = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					A24EBD051E10C62000B00E8D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A24EBCF11E10C62000B00E8D;
+					};
+					A24EBD101E10C62000B00E8D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A24EBCF11E10C62000B00E8D;
+					};
+				};
+			};
+			buildConfigurationList = A24EBCED1E10C62000B00E8D /* Build configuration list for PBXProject "NSURLProtocol-webView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A24EBCE91E10C62000B00E8D;
+			productRefGroup = A24EBCF31E10C62000B00E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24EBCF11E10C62000B00E8D /* NSURLProtocol-webView */,
+				A24EBD051E10C62000B00E8D /* NSURLProtocol-webViewTests */,
+				A24EBD101E10C62000B00E8D /* NSURLProtocol-webViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24EBCF01E10C62000B00E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBD001E10C62000B00E8D /* LaunchScreen.storyboard in Resources */,
+				A24EBCFD1E10C62000B00E8D /* Assets.xcassets in Resources */,
+				A24EBCFB1E10C62000B00E8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBD041E10C62000B00E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBD0F1E10C62000B00E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24EBCEE1E10C62000B00E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBD551E10EBDA00B00E8D /* MHCacheModel.swift in Sources */,
+				A24EBD2B1E10CD0600B00E8D /* MHURLProtocol.swift in Sources */,
+				A24EBD4A1E10D5B500B00E8D /* YYMemoryCache.m in Sources */,
+				A24EBD491E10D5B500B00E8D /* YYKVStorage.m in Sources */,
+				A24EBD251E10C6EA00B00E8D /* Extension.swift in Sources */,
+				A24EBD531E10EA0200B00E8D /* Reachability.m in Sources */,
+				A24EBD501E10E38500B00E8D /* MHCache.swift in Sources */,
+				A24EBCF81E10C62000B00E8D /* ViewController.swift in Sources */,
+				A24EBD481E10D5B500B00E8D /* YYDiskCache.m in Sources */,
+				A24EBCF61E10C62000B00E8D /* AppDelegate.swift in Sources */,
+				A24EBD471E10D5B500B00E8D /* YYCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBD021E10C62000B00E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBD0B1E10C62000B00E8D /* NSURLProtocol_webViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBD0D1E10C62000B00E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBD161E10C62000B00E8D /* NSURLProtocol_webViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A24EBD081E10C62000B00E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24EBCF11E10C62000B00E8D /* NSURLProtocol-webView */;
+			targetProxy = A24EBD071E10C62000B00E8D /* PBXContainerItemProxy */;
+		};
+		A24EBD131E10C62000B00E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24EBCF11E10C62000B00E8D /* NSURLProtocol-webView */;
+			targetProxy = A24EBD121E10C62000B00E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A24EBCF91E10C62000B00E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24EBCFA1E10C62000B00E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A24EBCFE1E10C62000B00E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24EBCFF1E10C62000B00E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A24EBD181E10C62000B00E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A24EBD191E10C62000B00E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A24EBD1B1E10C62000B00E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "NSURLProtocol-webView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMCC.com.NSURLProtocol-webView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NSURLProtocol-webView/NSURLProtocol-webView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A24EBD1C1E10C62000B00E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "NSURLProtocol-webView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMCC.com.NSURLProtocol-webView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NSURLProtocol-webView/NSURLProtocol-webView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A24EBD1E1E10C62000B00E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSURLProtocol-webViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMCC.com.NSURLProtocol-webViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLProtocol-webView.app/NSURLProtocol-webView";
+			};
+			name = Debug;
+		};
+		A24EBD1F1E10C62000B00E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSURLProtocol-webViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMCC.com.NSURLProtocol-webViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLProtocol-webView.app/NSURLProtocol-webView";
+			};
+			name = Release;
+		};
+		A24EBD211E10C62000B00E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NSURLProtocol-webViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMCC.com.NSURLProtocol-webViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NSURLProtocol-webView";
+			};
+			name = Debug;
+		};
+		A24EBD221E10C62000B00E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NSURLProtocol-webViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMCC.com.NSURLProtocol-webViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NSURLProtocol-webView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24EBCED1E10C62000B00E8D /* Build configuration list for PBXProject "NSURLProtocol-webView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBD181E10C62000B00E8D /* Debug */,
+				A24EBD191E10C62000B00E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24EBD1A1E10C62000B00E8D /* Build configuration list for PBXNativeTarget "NSURLProtocol-webView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBD1B1E10C62000B00E8D /* Debug */,
+				A24EBD1C1E10C62000B00E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24EBD1D1E10C62000B00E8D /* Build configuration list for PBXNativeTarget "NSURLProtocol-webViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBD1E1E10C62000B00E8D /* Debug */,
+				A24EBD1F1E10C62000B00E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24EBD201E10C62000B00E8D /* Build configuration list for PBXNativeTarget "NSURLProtocol-webViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBD211E10C62000B00E8D /* Debug */,
+				A24EBD221E10C62000B00E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A24EBCEA1E10C62000B00E8D /* Project object */;
+}
