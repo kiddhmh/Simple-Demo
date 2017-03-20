@@ -1,4 +1,4 @@
-//
+ //
 //  UIWebView+AppFrame.m
 //  ZhiHuRiBaoExample
 //
@@ -23,21 +23,21 @@ typedef void (^MHClickImageBlock)(NSString *URLString);
 - (MHClickImageBlock)mh_clickImage{
     return objc_getAssociatedObject(self, @selector(mh_clickImage));
 }
-- (void)setmh_clickImage:(MHClickImageBlock)clickImage{
+- (void)setMh_clickImage:(MHClickImageBlock)clickImage{
     objc_setAssociatedObject(self, @selector(mh_clickImage), clickImage, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 - (NSString *)mh_imageString{
     return objc_getAssociatedObject(self, @selector(mh_imageString));
 }
--(void)setmh_imageString:(NSString *)mh_imageString{
+-(void)setMh_imageString:(NSString *)mh_imageString{
     objc_setAssociatedObject(self, @selector(mh_imageString), mh_imageString, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 - (NSNumber*)mh_isClickImage{
     return objc_getAssociatedObject(self, @selector(mh_isClickImage));
 }
-- (void)setmh_isClickImage:(NSNumber*)mh_isClickImage{
+- (void)setMh_isClickImage:(NSNumber*)mh_isClickImage{
     objc_setAssociatedObject(self, @selector(mh_isClickImage), mh_isClickImage, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -45,7 +45,7 @@ typedef void (^MHClickImageBlock)(NSString *URLString);
     return objc_getAssociatedObject(self, @selector(mh_customTap));
 }
 
-- (void)setmh_customTap:(UITapGestureRecognizer *)mh_customTap{
+- (void)setMh_customTap:(UITapGestureRecognizer *)mh_customTap{
     objc_setAssociatedObject(self, @selector(mh_customTap), mh_customTap, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
